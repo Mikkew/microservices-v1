@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: mms-gateway
+  profiles:
+    active: localhost-eureka-cb
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    async:
+      enabled: true
+server:
+  port: 9095

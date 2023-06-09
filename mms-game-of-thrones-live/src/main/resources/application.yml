@@ -1,0 +1,15 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 8083
+spring:
+  application:
+    name: mms-game-of-thrones
+springdoc:
+  packages-to-scan:
+  - com.mms.got.controller
+  paths-to-match:
+  - /api/v1/**

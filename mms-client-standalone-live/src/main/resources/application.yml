@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: mms-clients
+eureka:
+  client:
+    register-with-eureka: false
