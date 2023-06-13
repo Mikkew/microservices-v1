@@ -1,0 +1,7 @@
+spring:
+  application:
+      name: mms-auth   
+server:      
+  port: 8085
+jwt:
+  secret: mms-secret
